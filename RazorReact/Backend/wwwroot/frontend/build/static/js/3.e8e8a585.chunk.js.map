@@ -1,0 +1,1 @@
+{"version":3,"sources":["Privacy.js"],"names":["Privacy"],"mappings":"uHAQeA,UARC,WACZ,OACI","file":"static/js/3.e8e8a585.chunk.js","sourcesContent":["const Privacy = () => {\n    return (\r\n        <h1>\r\n            Privacy from React\r\n        </h1>\r\n    )\r\n}\n\nexport default Privacy\n"],"sourceRoot":""}

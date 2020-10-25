@@ -1,0 +1,2 @@
+(this.webpackJsonpfrontend=this.webpackJsonpfrontend||[]).push([[3],{13:function(n,t,e){"use strict";e.r(t);var r=e(0);t.default=function(){return Object(r.jsx)("h1",{children:"Privacy from React"})}}}]);
+//# sourceMappingURL=3.e8e8a585.chunk.js.map
