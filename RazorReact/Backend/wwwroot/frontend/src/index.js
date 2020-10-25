@@ -4,12 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const apps = {
+    'App': () => import('./App'),
+    'Privacy': () => import('./Privacy'),
+}
+
+const renderAppInElement = (el) => {
+    if (apps[el.id]) {
+        apps[el.id]().then((A) => {
+            ReactDOM.render(<A.default />, el);
+        });
+    }
+}
+
+document
+    .querySelectorAll('.__react-root')
+    .forEach(renderAppInElement)
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
