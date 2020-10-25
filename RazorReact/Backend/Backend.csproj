@@ -13,4 +13,8 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\frontend\" />
+  </ItemGroup>
+
 </Project>
