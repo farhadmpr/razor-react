@@ -14,7 +14,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\frontend\" />
+    <Content Update="wwwroot\frontend\src\App - Copy.test.js">
+      <DependentUpon>App.test.js</DependentUpon>
+    </Content>
   </ItemGroup>
 
 </Project>
